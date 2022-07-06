@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+:root {
+    --cor1: #2B0166;
+    --cor2: #350080;
+    --cor3: #4B01B3;
+    --cor4: #6102E6;
+    --cor5: #8C48EA;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor5);
+}
+header {
+    background-image: linear-gradient( to top, var(--cor1), var(--cor2));
+    min-height: 125px;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    padding-top: 35.5px;
+    font-size: 2.1em;
+}
+nav {
+    background-color: var(--cor1);
+    padding: 5px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: var(--cor2);
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
